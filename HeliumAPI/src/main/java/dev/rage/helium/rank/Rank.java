@@ -25,4 +25,8 @@ public class Rank {
     public boolean isPurchasable() {
         throw new IllegalArgumentException("API is null");
     }
+
+    public String getRankColor(){
+        throw new IllegalArgumentException("API is null");
+    }
 }
