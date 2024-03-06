@@ -92,4 +92,17 @@ enum class HeliumAPI {
     fun getNotes(uuid: UUID): List<String> {
         throw RuntimeException("HeliumAPI is not a plugin!")
     }
+
+    fun isinAdminChat(uuid: UUID): Boolean {
+        throw RuntimeException("HeliumAPI is not a plugin!")
+    }
+
+    fun isinStaffChat(uuid: UUID): Boolean {
+        throw RuntimeException("HeliumAPI is not a plugin!")
+    }
+
+    fun isFrozen(uuid: UUID): Boolean {
+        throw RuntimeException("HeliumAPI is not a plugin!")
+    }
+
 }
